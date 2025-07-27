@@ -16,24 +16,24 @@ const Main = () => {
         {!showResult
         ?<>
          <div className="greet">
-            <p><span>Hello,Tung tung sahur</span></p>
-            <p>How can I help you today</p>
+            <p><span>Hello,Mai</span></p>
+            <p>How can I help you </p>
         </div>
         <div className="cards">
             <div className="card">
-                <p>suggest beautiful places to see on an upcoming road trip</p>
+                <p>What is Javascript?</p>
                 <img src={assets.compass_icon} alt="" />
             </div>
              <div className="card">
-                <p>Briefly summarize this concept: urban planning</p>
+                <p>How to reduce stress? If I'm struggle with stress is it good or bad?</p>
                 <img src={assets.bulb_icon} alt="" />
             </div>
             <div className="card">
-                <p>Brainstorm team bonding activities for our work retreat</p>
+                <p>Details infomation about Stray Kids</p>
                 <img src={assets.message_icon} alt="" />
             </div>
              <div className="card">
-                <p>Improve the readability of the following code</p>
+                <p>The road to explore the world with different places</p>
                 <img src={assets.code_icon} alt="" />
             </div>
         </div>
